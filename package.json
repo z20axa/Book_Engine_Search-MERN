@@ -12,7 +12,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z20axa/Book_Engine_Search-MERN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/z20axa/Book_Engine_Search-MERN/issues"
+  },
+  "homepage": "https://github.com/z20axa/Book_Engine_Search-MERN#readme",
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^7.6.0"
   }
 }
