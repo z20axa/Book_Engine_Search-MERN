@@ -56,7 +56,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ## App Deployment Link
 
 - App Deployment Link Coming Soon!!!
-<!-- - Please follow [THIS LINK!]() -->
+<!-- - Please follow [THIS LINK!](https://book-search-engine-z20axa.herokuapp.com/) -->
 
 ## App Screenshots
 
