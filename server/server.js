@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'production') {
 
 // single express route to serve entire REACT front end
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/'));
+  res.sendFile(path.join(__dirname, '../client/')); // render by default the index.html inside client/public 
 })
 
 
