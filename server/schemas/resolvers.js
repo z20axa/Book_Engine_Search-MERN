@@ -1,3 +1,4 @@
+// packages/modules imports
 const { User } = require('../models');
 const { AuthenticationError } = require('apollo-server-express');
 const { signToken } = require('../utils/auth');
@@ -11,7 +12,7 @@ const resolvers = {
         }).select("-__V-password");
         return userData;
       }
-      throw new AuthenticationError("not logged in");
+      throw new AuthenticationError("User not logged in");
     },
   },
 
